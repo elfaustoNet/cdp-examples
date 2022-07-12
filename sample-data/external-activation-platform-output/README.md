@@ -13,7 +13,7 @@ Check out the [External Activation Platform Files in Cloud File Storage
 
 
 Here are some footnotes about the sample files contained in this folder:
-* Both the [metadata.json](./metadata.json) and [hashed-email-example.json](./hashed-email-example.json.gz) files contain all segments published to an account. These sample files contain two segments. 
+* The [metadata.json](./metadata.json), [hashed-email-example.json](./hashed-email-example.json.gz), and [hashed-email-csv-example.json](./hashed-email-csv-example.csv.gz) files contain all segments published to an account. These sample files contain two segments. 
 * The data files are delivered as a .gz file. You'll have to gunzip to be able to read the file. 
 * There can be one or more partial data files per type per account. 
 * The data files are currently only a full refresh. The "add" field is the segment membership. The remove field is reserved for future use.
